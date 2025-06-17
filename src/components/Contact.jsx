@@ -23,7 +23,7 @@ const Contact = () => {
     },
     {
       name: "WhatsApp",
-      value: "+234 704 258 4760",
+      value: "+234 814 936 4188",
       icon: MessageCircle,
       color: "from-green-500 to-green-600",
       action: (number) =>
