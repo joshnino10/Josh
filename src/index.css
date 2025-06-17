@@ -1,0 +1,8 @@
+@import "tailwindcss";
+body {
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: Amanda;
+  src: url(/src/assets/font/NatureBeautyPersonalUse-9Y2DK.ttf);
+}
