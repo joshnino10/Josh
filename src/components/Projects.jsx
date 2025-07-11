@@ -1,7 +1,8 @@
 /* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
 import { useState } from "react";
-import fax from "/src/assets/fax.png";
+import ecommerce from "/src/assets/e-commerce.JPG"
+import exchange from "/src/assets/exchange.JPG"
 
 
 const Projects = () => {
@@ -9,24 +10,35 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Fax Unique Wears",
+      title: "Ecommerce App",
       description:
-        "A responsive e-commerce landing page for a luxury fashion brand featuring product showcases and seamless social media integration.",
+        " sleek, modern eCommerce mobile application built to provide users with a seamless shopping experience. The app supports product browsing, detailed product views, cart management, and a secure checkout process, all within an intuitive, responsive interface. ",
       technologies: [
-        "Tailwind CSS",
+        "TypeScript",
         "JavaScript",
-        "React",
+        "ReactNative",
         "Font Awesome",
       ],
-      image: fax,
-      link: "http://fax-unique-collections-yzg1.vercel.app",
-      github: "https://github.com/Tosino2580/fax-unique-collections/tree/main",
+      image: ecommerce,
+      github: "https://github.com/joshnino10/E-Commerce",
       features: [
-        "Integrated social media feeds (Instagram, Twitter) for brand engagement",
-        "Fully responsive, mobile-first design for optimal user experience",
-        "Embedded Google Maps for store location display",
-        "Animated UI elements for a modern and engaging visual experience",
-        "Seamless product showcase with a clean and elegant layout",
+       
+      ],
+    },
+    {
+      title: "Josh Exchange",
+      description:
+        "Josh Exchange is a cross-platform mobile app built with React Native, designed to provide users with a seamless and secure experience for exchanging gift cards and cryptocurrencies like Bitcoin. The app emphasizes simplicity, speed, and transparency, allowing users to initiate and manage exchanges with just a few taps.",
+      technologies: [
+        "TypeScript",
+        "JavaScript",
+        "ReactNative",
+        "Font Awesome",
+      ],
+      image: exchange,
+      github: "https://github.com/joshnino10/JoshExchange",
+      features: [
+        
       ],
     },
   ];
@@ -87,7 +99,7 @@ const Projects = () => {
             >
               <div className="bg-gray-800 rounded-xl overflow-hidden shadow-2xl hover:shadow-blue-500/20 transition-all duration-300 h-full flex flex-col">
                 {/* Project Image */}
-                <div className="h-52 bg-gradient-to-br from-gray-700 to-gray-900 relative overflow-hidden">
+                <div className="h-80 bg-gradient-to-br from-gray-700 to-gray-900 relative overflow-hidden ">
                   <img
                     src={project.image}
                     alt={project.title}

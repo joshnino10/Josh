@@ -41,7 +41,7 @@ const Hero = () => {
     
     ],
     cta: "Download My Resume",
-    resumeUrl: "https://drive.https://www.canva.com/design/DAGsngezwHU/UAAPY15gDKjygSyjRFFu2g/edit?utm_content=DAGsngezwHU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton.com/file/d/1TyQPvsHHsRLM1NSUCrsmBP9OnMbsVHQG/view?usp=drivesdk", // Make sure this file exists in your public folder
+    resumeUrl: "https://drive.google.com/file/d/1xStVdPAKB4gLK8n0DxnqEdxhgBl3Ztf8/view?usp=drive_link", // Make sure this file exists in your public folder
     socialLinks: [
       {
         name: "GitHub",
